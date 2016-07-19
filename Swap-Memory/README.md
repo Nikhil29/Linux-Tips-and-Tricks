@@ -7,8 +7,6 @@ Procedure:
 
 2. Add the following lines to it:
 
-	# swappiness value decreased to 10 to increase performance
-
 	vm.swappiness = 10
 
 3. Reboot the System.
@@ -21,10 +19,10 @@ How to check the current swappiness of system:
 
 Sometimes the system uses swap area even if memory space is available. To empty swap area at that time:
 
-1. Disable swapping. 
+1. Disable swapping:
 
 	sudo swapoff -av
 
-2. Re Enable swapping.
+2. Re Enable swapping:
 
 	sudo swapon -av
