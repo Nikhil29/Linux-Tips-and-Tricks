@@ -43,11 +43,11 @@ Decreasing swappiness index allows to increase performance of system.
 ##### Sometimes the system uses swap area even if memory space is available. To empty swap area at that time: 
 - Disable swapping:
 ````
-	sudo swapoff -av
+    sudo swapoff -av
 ````
 - Re Enable swapping:
 ````
-	sudo swapon -av
+    sudo swapon -av
 ````
 
 #### <ins>Night Light Filter</ins>
@@ -59,21 +59,21 @@ To enable night light filter in linux.
 ````
 - Now you can set a temp of the screen which changes the screen color. You can play around by setting one time temp of screen by using below command. Note that the default temp of screen is 6500K. Below we are setting a temp of 4000K
 ````
-redshift -O 4000
+    redshift -O 4000
 ````
 - To reset to neutral:
 ````
-redshift -x
+    redshift -x
 ````
 - Now to permanently set both day time and night time temperatures, use below syntax:
 ````
-redshift -t DAY:NIGHT
+    redshift -t DAY:NIGHT
 ````
 Eg:
 ````
-redshift -t 6500:5000
+    redshift -t 6500:5000
 ````
 - To explore more about redshift, use below command for help:
 ````
-redshift -h
+    redshift -h
 ````
