@@ -65,15 +65,23 @@ To enable night light filter in linux.
 ````
     redshift -x
 ````
-- Now to permanently set both day time and night time temperatures, use below syntax:
+- Open redshift from start menu. Now an icon will appear in the bottom taskbar/ panel. It will run it once.
+- To autostart it on every startup, click on the icon and check Autostart option. It will run it on every startup.
+- Now to set the day/night temperatures:
+- Create redshift.conf file in the .config folder present at home ie.
 ````
-    redshift -t DAY:NIGHT
+    ~/.config/redshift.conf
 ````
-Eg:
+- In it write the following text and replace the temp with what you would like to have and lat and long of your location(I used Delhi):
 ````
-    redshift -t 6500:5000
+    ; Global settings for redshift
+    [redshift]
+    temp-day=6000
+    temp-night=4000
+    location-provider=manual
+
+    [manual]
+    lat=28.64
+    lon=77.21
 ````
-- To explore more about redshift, use below command for help:
-````
-    redshift -h
-````
+- That's all you need. 
