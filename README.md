@@ -72,7 +72,7 @@ To enable night light filter in linux.
 ````
     ~/.config/redshift.conf
 ````
-- In it write the following text and replace the temp with what you would like to have and lat and long of your location(I used Delhi):
+- In it write the following text and replace the temperatures with what you would like to have and lat and long of your location(I used Delhi):
 ````
     ; Global settings for redshift
     [redshift]
