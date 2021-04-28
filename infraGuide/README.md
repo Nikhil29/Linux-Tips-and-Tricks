@@ -37,7 +37,7 @@ sudo systemctl stop kibana.service
 ````
 
 ##### Sample Run:
-Open localhost:5601
+Open http://localhost:5601
 
 #### <ins>Redis</ins>
 ##### Install:
