@@ -12,7 +12,9 @@ sudo systemctl stop elasticsearch.service
 ````
 
 ##### Sample Run:
+````
 curl -X GET "localhost:9200/?pretty"
+````
 
 ##### Setting max size for elastic search cluster:
 - By default, it takes more than 3gb of ramspace which might not be viable for local testing.
@@ -49,7 +51,7 @@ sudo apt-get Install: redis
 ````
 redis-server
 ````
-Stop above command to stop the server
+Press Ctrl+C to stop the server.
 
 ##### Sample Run:
 - Open Redis Cli to run commands
