@@ -1,7 +1,7 @@
-### Linux Infra Tools Tips
-It contains tips to install/start/stop infra tools.
+### Linux Infra Tools Quick start Guide
+It contains quick star guide for infra tools for linux.
 
-#### Elastic Search
+#### <ins>Elastic Search</ins>
 ##### Install
 https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html
 
@@ -14,7 +14,7 @@ sudo systemctl stop elasticsearch.service
 ##### Sample Run
 curl -X GET "localhost:9200/?pretty"
 
-#### Kibana
+#### <ins>Kibana</ins>
 ##### Install
 https://www.elastic.co/guide/en/kibana/current/deb.html
 
@@ -27,7 +27,7 @@ sudo systemctl stop kibana.service
 ##### Sample Run
 Open localhost:5601
 
-#### Redis
+#### <ins>Redis</ins>
 ##### Install
 ````
 sudo add-apt-repository ppa:redislabs/redis
@@ -53,7 +53,7 @@ set mykey somevalue
 get mykey
 ````
 
-#### Confluent Kafka in Docker
+#### <ins>Confluent Kafka in Docker</ins>
 ##### Install
 https://docs.confluent.io/platform/current/quickstart/ce-docker-quickstart.html
 
