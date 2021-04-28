@@ -14,6 +14,16 @@ sudo systemctl stop elasticsearch.service
 ##### Sample Run:
 curl -X GET "localhost:9200/?pretty"
 
+##### Setting max size for elastic search cluster:
+- By default, it takes more than 3gb of space which might not be viable for local testing.
+- So create a file "/etc/elasticsearch/jvm.options.d/heap.options"
+- Edit it and place below text and save it.
+````
+-Xms1g
+-Xmx1g
+````
+- Now start the elastic search. It will now consume approx 1gb.
+
 #### <ins>Kibana</ins>
 ##### Install:
 https://www.elastic.co/guide/en/kibana/current/deb.html
